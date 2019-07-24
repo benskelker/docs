@@ -4,15 +4,17 @@
     "jest": "^24.8.0",
     "jquery": "^1.11.3",
     "nock": "^10.0.6",
-    "parcel": "^1.12.3",
-    "rmfr": "^2.0.0"
+    "rmfr": "^2.0.0",
+    "shadow-cljs": "^2.8.41"
   },
   "scripts": {
     "test": "jest"
   },
   "jest": {
-    "setupFiles": ["./jest.js"]
-   },
+    "setupFiles": [
+      "./jest.js"
+    ]
+  },
   "dependencies": {
     "dedent": "^0.7.0",
     "js-cookie": "^2.1.0",

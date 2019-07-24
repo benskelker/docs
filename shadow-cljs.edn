@@ -1,0 +1,12 @@
+{:dependencies
+ []
+
+ :source-paths
+ ["resources/web/src/cljs" "resources/web/src/js"]
+
+ :builds
+ {:app {:target           :browser
+        :js-options       {:node-modules-dir "../"}
+        :output-dir       "resources/web"
+        :compiler-options {:externs ["externs/jquery.js"]}
+        :modules          {:docs {:entries [docs.core]}}}}}

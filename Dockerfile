@@ -43,6 +43,7 @@ RUN install_packages \
   curl \
   cmake \
   git \
+  openjdk-8-jdk-headless \
   less \
   libnss-wrapper \
   libxml2-dev \

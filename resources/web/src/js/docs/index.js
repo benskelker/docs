@@ -1,4 +1,4 @@
-import {Cookies, $} from "./deps";
+import {$, Cookies} from "./deps";
 import {get_base_url} from "./utils.js";
 import {lang_strings} from "./localization.js";
 import {settings_modal} from "./components/settings_modal";

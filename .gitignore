@@ -20,9 +20,9 @@ html_docs/
 vendor
 
 # Compiled docs.js
-.cache/
+.shadow-cljs/
 resources/web/docs.js
-resources/web/docs.js.map
+resources/web/manifest.edn
 resources/web/tests/
 
 # Comes from running rspec tests

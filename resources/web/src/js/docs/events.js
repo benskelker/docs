@@ -1,5 +1,5 @@
 import {console_regex} from "./utils.js";
-import {$} from "./deps";
+import {$} from "./deps.js";
 
 // Returns a thunk to preserve jQuery's `this` value but
 // we need access to the lang_strings
